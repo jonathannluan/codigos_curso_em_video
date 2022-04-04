@@ -1,0 +1,9 @@
+a1=int(input('Informe o primeiro termo dessa PA: '))
+r=int(input('Informe a razão dessa PA: '))
+c=1
+an=0
+x=1
+while c<=10:
+    an=a1+(c-1)*r
+    c+=1
+    print(an,end='  ')
